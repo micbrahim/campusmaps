@@ -1,0 +1,16 @@
+# tests adding two edges from one node of a graph to another node.
+# tests valid parent-child relationship
+
+# create graph
+CreateGraph g1
+
+# add two nodes
+AddNode g1 n1
+AddNode g1 n2
+
+# creates two edges coming from one edge to the other
+AddEdge g1 n1 n2 e1
+AddEdge g1 n1 n2 e2
+
+# list children of the parent node
+ListChildren g1 n1

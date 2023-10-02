@@ -1,0 +1,10 @@
+task junitTests(type: Test) {
+  group "verification"
+  filter {
+    includeTestsMatching "sets.*"
+  }
+}
+
+dependencies {
+    testImplementation 'junit:junit:4.13.1'
+}

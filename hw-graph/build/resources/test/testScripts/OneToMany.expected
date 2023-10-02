@@ -1,0 +1,17 @@
+# tests a parent node that has edges coming from node to two other nodes.
+# tests validity of parent-child relationship
+
+# create empty graph
+created graph g1
+
+# add three nodes
+added node n1 to g1
+added node n2 to g1
+added node n3 to g1
+
+# creates two edges coming from the same node to two different nodes
+added edge e1 from n1 to n2 in g1
+added edge e2 from n1 to n3 in g1
+
+# list children of parent node
+the children of n1 in g1 are: n2(e1) n3(e2)

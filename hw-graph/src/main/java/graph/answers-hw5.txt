@@ -1,0 +1,30 @@
+## CSE 331 hw-graph Coding Questions
+
+## Part 2
+###########################################################################
+
+Briefly explain why you included the operations you did and why you feel they are a sufficient
+interface to a graph. If your design includes multiple classes or interfaces, explain why you
+included each one; if not, explain whether you considered additional classes and why you decided
+not to include them.
+
+I included the operations that I did because from my perspective, each separate entity in the graph deserved its own
+class. Originally, I thought that the node class did not need its own due to some of the functions being similar, but
+I found enough difference for it to have its own class.
+I implemented a top-level class (the Graph class), which takes in both the GraphEdge/Nodes to form a complete graph. In
+it, I included some basic commands (such as adding a node or creating an edge between two nodes or itself), but I also
+included some remove commands for the edges and nodes because I thought it would be useful for a client if they did not
+need them anymore.
+
+## Part 3
+###########################################################################
+
+What was your testing strategy for this assignment? How do your script tests and JUnit tests
+differ from each other (if they do), and why?
+
+For me, my testing strategy utilized testing the cases for 0, 1, and many (2+) nodes/edges. These cases were distinct
+enough from each other that they warranted their own test cases.
+
+My script tests and JUnit tests differ from each other because my JUnit tests test functionality in my design that the
+script test could not (such as getting a specific edge). However, the script tests could test out a majority of my
+current design including creating graphs, adding nodes/edges, checking child nodes, etc.

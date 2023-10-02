@@ -1,0 +1,13 @@
+# tests creating an edge starting from a node that points to itself (the same node)
+
+# create graph
+CreateGraph g1
+
+# add node
+AddNode g1 n1
+
+# create and edge from node to itself
+AddEdge g1 n1 n1 e1
+
+# lists child node
+ListChildren g1 n1

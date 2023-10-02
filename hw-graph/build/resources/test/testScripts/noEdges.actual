@@ -1,0 +1,10 @@
+# test for edges of a node with no child
+
+# create empty graph
+created graph g1
+
+# add node to the graph
+added node n1 to g1
+
+# list children of node
+the children of n1 in g1 are:

@@ -1,0 +1,13 @@
+CSE 331 Homework.  Answers to written questions.
+Edit this file to supply your answers.
+
+Name:  Michael Ibrahim
+
+Describe any additional functionality you added to your application, or any
+significant changes you made to the starter code beyond the basic requirements
+of the assignment, below:
+
+1. Created a "fade-in" animation when the user draws lines.
+2. Implemented a button to switch between light and dark mode in the app.
+
+

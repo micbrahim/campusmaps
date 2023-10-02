@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="tasks.TaskTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2023-08-04T17:43:50" hostname="MacBook-Pro-164.home" time="0.003">
+  <properties/>
+  <testcase name="testCreationCorrect" classname="tasks.TaskTest" time="0.0"/>
+  <testcase name="testCreationNullDescription" classname="tasks.TaskTest" time="0.0"/>
+  <testcase name="testToString" classname="tasks.TaskTest" time="0.003"/>
+  <testcase name="testCreationNullName" classname="tasks.TaskTest" time="0.0"/>
+  <testcase name="testCreationNullTeam" classname="tasks.TaskTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,6 @@
+Briefly list any changes you made to your graph class during hw-pathfinder, and why you made those changes.
+
+1. Changed the string names of the edges and nodes generic, replacing the previous string implementation
+2. Changed the JUnit test and test driver files to now accept the generic nodes and edges.
+3. Changed representation of graph from using lists to now using sets, to reduce time complexity.
+

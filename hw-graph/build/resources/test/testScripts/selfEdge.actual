@@ -1,0 +1,13 @@
+# tests creating an edge starting from a node that points to itself (the same node)
+
+# create graph
+created graph g1
+
+# add node
+added node n1 to g1
+
+# create and edge from node to itself
+added edge e1 from n1 to n1 in g1
+
+# lists child node
+the children of n1 in g1 are: n1(e1)

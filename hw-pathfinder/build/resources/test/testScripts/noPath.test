@@ -1,0 +1,11 @@
+# Tests Djikstra's algo with no path between nodes
+
+CreateGraph g1
+
+AddNode g1 n1
+AddNode g1 n2
+AddNode g1 n3
+
+AddEdge g1 n1 n2 6.9
+
+FindPath g1 n1 n3

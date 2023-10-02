@@ -1,0 +1,7 @@
+# Tests Djikstra's algo with a node having a path to itself
+
+CreateGraph g1
+
+AddNode g1 n1
+
+FindPath g1 n1 n1

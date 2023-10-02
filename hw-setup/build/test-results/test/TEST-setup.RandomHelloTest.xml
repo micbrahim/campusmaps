@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="setup.RandomHelloTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2023-06-30T00:25:46" hostname="MacBook-Pro-164.local" time="0.001">
+  <properties/>
+  <testcase name="testGreetings" classname="setup.RandomHelloTest" time="0.001"/>
+  <testcase name="testCrash" classname="setup.RandomHelloTest" time="0.0"/>
+  <system-out><![CDATA[Bonjour Monde
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

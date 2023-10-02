@@ -1,0 +1,64 @@
+## CSE 331 HW6 Questions
+
+NOTE: This file is used as part of HW6, and is not due as part of the HW5
+submission. You may leave it blank for HW5.
+
+## Part 1
+###########################################################################
+
+A few examples of possible Graph representations:
+
+    A: A collection of nodes and a collection of edges.
+    B: An adjacency list, in which each node is associated with a list of its outgoing edges.
+    C: An adjacency matrix, which explicitly represents, for every pair ⟨A,B⟩ of nodes, whether there 
+       is a link from A to B, and how many.
+
+1. In two or three sentences, explain an advantage and a disadvantage of each of the
+representations listed above (for example, in terms of runtime complexity, space
+complexity, or ease of implementation).
+
+    A. A collection of nodes makes it easier to make revisions to the code, since the nodes and edges will
+    be not as coupled. However, runtime complexity can be an issue since the nodes and edges will contain little
+    information about each other.
+
+    B. An adjacency list will make it easier when travelling between nodes, since the nodes will now contain information
+    about its adjacent edges. However, it might be harder to implement methods that will be specific, such as
+    getting the incoming edges of a certain node.
+
+    C. An adjacency matrix will allow for a lower space complexity implementation of a pathfinding function, since
+    information about for every pair of nodes and whether they link or not determines if there is a path. However, it
+    will be more intellectually complex to implement, since it will be more difficult to think of a graph not in terms
+    of its individual nodes and edges
+
+
+
+2. In two to three sentences, describe the representation you chose and explain why you
+chose it. If you chose to use a different representation than one of the three we described
+above, be sure to list its advantages and disadvantages, too.
+
+    I used a combination of both a collection of nodes and edges and an adjacency list for each individual node. I did
+    because I can take advantage of both its positives, having low coupling and an easier time travelling across nodes.
+    However, time complexity might be an issue when dealing with larger data sets.
+
+
+
+## Part 4
+###########################################################################
+
+    (Please keep your answers brief and to-the-point.)
+
+1. Describe any new tests you added and why you added them, or why you feel that your original
+tests alone are sufficient.
+
+    I added a couple new JUnit tests, to see if both the new overridden .equals method performed its duty and if
+    the hash code method also worked, because the previous JUnit tests and the test scripts don't test them.
+
+
+2. Did you make any changes to your specifications as you were implementing your Graph? (yes/no)
+If yes, describe your changes and why you made them.
+
+    Yes, I did. I added that getEdge and getNode would both return null if there happened to be no edges or nodes,
+    respectively.
+
+
+

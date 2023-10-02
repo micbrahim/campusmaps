@@ -1,0 +1,17 @@
+# tests a parent node that has edges coming from node to two other nodes.
+# tests validity of parent-child relationship
+
+# create empty graph
+CreateGraph g1
+
+# add three nodes
+AddNode g1 n1
+AddNode g1 n2
+AddNode g1 n3
+
+# creates two edges coming from the same node to two different nodes
+AddEdge g1 n1 n2 e1
+AddEdge g1 n1 n3 e2
+
+# list children of parent node
+ListChildren g1 n1

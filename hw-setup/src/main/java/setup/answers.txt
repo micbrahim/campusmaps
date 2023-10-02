@@ -1,0 +1,40 @@
+## CSE 331 hw-setup Questions
+## Part 7: Answering Questions About the Code
+
+1. Why did Fibonacci fail the testThrowsIllegalArgumentException< test? What (if anything) did
+you have to do to fix it? If you did not have to change anything to fix this issue, explain why.
+
+    It failed the testThrowsIllegalArgumentException test because the FibTerm method checked if n was less than or equal to 0 to throw an exception. However, 0 is a nonnegative number, so I had to change the condition to strictly less than 0 to fix this.
+
+2. Why did Fibonacci fail the testBaseCase test? What (if anything) did you have to do to fix
+it? If you did not have to change anything to fix this issue, explain why.
+
+    It failed the testBaseCase because since the term at 0 threw an exception, the base case of 0 got assigned to be a negative number and therefor did not pass the test. I did not have to fix anything directly for this issue, because fixing the testThrowsIllegalArgumentException in turn fixes the testBaseCase.
+
+3. Why did Fibonacci fail the testInductiveCase test? What (if anything) did you have to do to
+fix it? If you did not have to change anything to fix this issue, explain why.
+
+    It failed the testInductiveCase because the original Fibonacci code had its base-cases as 0, 1, and 2 because of the <= 2. Because 2 was a base case, its value was 1 instead of being 3. By making this condition a strictly less than 2, the base cases will only be 0 and 1, allowing 2 to have its correct value.
+
+
+## Part 8: Debugger Tutorial
+
+1. What are the values of "x", "y", and "sum" printed by your statement? Why was x not equal 
+to the first integer entered here, and how could we fix this?
+
+4, 4, and 0. x was not equal to the first integer entered because of integer arithmetic, not being able to contain a decimal value. So, by removing the equation and just assigning the nextInt to x, it solves this problem.
+
+
+
+2. What are all the names and values listed in the “Variables” panel? What does the “frames” 
+tab list as the current method and line number? (Write down the text that was highlighted when 
+the Debug perspective first opened.)
+
+x = 3, y = 4. The frames tab lists the current method and line as computeSum, on line 43.
+
+3. What are all the names and values listed in the “Variables” panel after each of the two step overs?
+
+1st step over: x = 3, y = 4
+2nd step over: x = 3, y = 4, sum = -1
+
+

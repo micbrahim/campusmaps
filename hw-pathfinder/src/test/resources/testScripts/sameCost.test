@@ -1,0 +1,15 @@
+# Finds path with Dijkstra's algo when multiple paths have same cost
+
+CreateGraph g1
+
+AddNode g1 n1
+AddNode g1 n2
+AddNode g1 n3
+AddNode g1 n4
+
+AddEdge g1 n1 n2 1.0
+AddEdge g1 n2 n4 1.0
+AddEdge g1 n1 n3 1.0
+AddEdge g1 n3 n4 1.0
+
+FindPath g1 n1 n4

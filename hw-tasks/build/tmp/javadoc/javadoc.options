@@ -1,0 +1,15 @@
+-classpath '/Users/michaelibrahim/Documents/cse/cse331-23su-micibr/hw-tasks/build/classes/java/main:/Users/michaelibrahim/Documents/cse/cse331-23su-micibr/hw-tasks/build/resources/main:/Users/michaelibrahim/Documents/cse/cse331-23su-micibr/hw-graph/build/libs/hw-graph.jar'
+-d '/Users/michaelibrahim/Documents/cse/cse331-23su-micibr/hw-tasks/build/docs/javadoc'
+-doctitle 'hw-tasks API'
+-notimestamp 
+-quiet 
+-tag 'spec.modifies:a:Modifies:'
+-tag 'spec.effects:a:Effects:'
+-tag 'spec.requires:a:Requires:'
+-tag 'spec.specfield:a:Specfield:'
+-tag 'spec.derivedfield:a:Derived Field:'
+-windowtitle 'hw-tasks API'
+'/Users/michaelibrahim/Documents/cse/cse331-23su-micibr/hw-tasks/src/main/java/tasks/TaskSorterMain.java'
+'/Users/michaelibrahim/Documents/cse/cse331-23su-micibr/hw-tasks/src/main/java/tasks/Task.java'
+'/Users/michaelibrahim/Documents/cse/cse331-23su-micibr/hw-tasks/src/main/java/tasks/TaskSorter.java'
+'/Users/michaelibrahim/Documents/cse/cse331-23su-micibr/hw-tasks/src/main/java/tasks/Dependency.java'

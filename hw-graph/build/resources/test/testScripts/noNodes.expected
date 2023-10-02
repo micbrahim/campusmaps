@@ -1,0 +1,7 @@
+# test for nodes in empty graph
+
+# create empty graph
+created graph g1
+
+# list nodes of graph (empty)
+g1 contains:

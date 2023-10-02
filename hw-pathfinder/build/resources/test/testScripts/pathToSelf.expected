@@ -1,0 +1,8 @@
+# Tests Djikstra's algo with a node having a path to itself
+
+created graph g1
+
+added node n1 to g1
+
+path from n1 to n1:
+total cost: 0.000

@@ -1,0 +1,12 @@
+-classpath '/Users/michaelibrahim/Documents/cse/cse331-23su-micibr/hw-graph/build/classes/java/main:/Users/michaelibrahim/Documents/cse/cse331-23su-micibr/hw-graph/build/resources/main'
+-d '/Users/michaelibrahim/Documents/cse/cse331-23su-micibr/hw-graph/build/docs/javadoc'
+-doctitle 'hw-graph API'
+-notimestamp 
+-quiet 
+-tag 'spec.modifies:a:Modifies:'
+-tag 'spec.effects:a:Effects:'
+-tag 'spec.requires:a:Requires:'
+-tag 'spec.specfield:a:Specfield:'
+-tag 'spec.derivedfield:a:Derived Field:'
+-windowtitle 'hw-graph API'
+'/Users/michaelibrahim/Documents/cse/cse331-23su-micibr/hw-graph/src/main/java/graph/Graph.java'

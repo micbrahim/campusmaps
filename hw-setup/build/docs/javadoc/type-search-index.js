@@ -1,0 +1,1 @@
+typeSearchIndex = [{"p":"setup","l":"Adder"},{"l":"All Classes and Interfaces","u":"allclasses-index.html"},{"p":"setup","l":"Evaluator"},{"p":"setup","l":"Fibonacci"},{"p":"setup","l":"Finder"},{"p":"setup","l":"HelloWorld"},{"p":"setup","l":"HolaWorld"},{"p":"setup","l":"RandomHello"}];updateSearchResults();

@@ -1,0 +1,10 @@
+# Finds a path with Dijkstra's algo when unknown nodes are found
+
+CreateGraph g1
+
+AddNode g1 n1
+AddNode g1 n2
+
+AddEdge g1 n1 n2 1.0
+
+FindPath g1 n1 node

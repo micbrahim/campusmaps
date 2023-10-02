@@ -1,0 +1,16 @@
+# tests adding two edges from one node of a graph to another node.
+# tests valid parent-child relationship
+
+# create graph
+created graph g1
+
+# add two nodes
+added node n1 to g1
+added node n2 to g1
+
+# creates two edges coming from one edge to the other
+added edge e1 from n1 to n2 in g1
+added edge e2 from n1 to n2 in g1
+
+# list children of the parent node
+the children of n1 in g1 are: n2(e1) n2(e2)
